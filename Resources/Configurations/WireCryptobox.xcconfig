@@ -1,0 +1,10 @@
+//
+//
+#include "zmc-config/ios.xcconfig"
+
+APPLICATION_EXTENSION_API_ONLY = YES
+PRODUCT_NAME = WireCryptobox
+LIBRARY_SEARCH_PATHS = $(inherited) $(PROJECT_DIR)/build/lib
+SWIFT_INCLUDE_PATHS = $(inherited) $(SRCROOT)/WireCryptobox
+CRYPTOBOX_VERSION = 1.1.0
+
